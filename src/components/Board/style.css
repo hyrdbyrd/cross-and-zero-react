@@ -1,0 +1,66 @@
+.game {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.game__title {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.turn {
+    padding: 5px;
+}
+
+.btn {
+    background-color: #2e5bad;
+    border: 2px solid #134688;
+    padding: 5px;
+    color: #fff;
+    transition: all .2s linear;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #326bd4;
+    border-color: #1555a8;
+    box-shadow: 5px 2px 10px 0 rgba(51, 51, 51, .3);
+}
+
+.winner {
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+}
+
+.winner_x {
+    background: lightblue;
+    border-color: blue;
+}
+
+.winner_0 {
+    background: #ffd9df;
+    border-color: red;
+}
+
+.winner_throw {
+    background: lightgray;
+    border-color: gray;
+}
+
+.board {
+    border-collapse: collapse;
+}
+
+.board-row__item {
+    width: 60px;
+    height: 60px;
+    border: 2px solid gray;
+    font-size: 40px;
+    text-align: center;
+    vertical-align: middle;
+}
