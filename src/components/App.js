@@ -6,10 +6,6 @@ export default class App extends PureComponent {
         super(props);
     }
     render() {
-        return (
-            <div className="main">
-                <Board />
-            </div>
-        )
+        return <Board />
     }
 }
